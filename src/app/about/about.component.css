@@ -1,0 +1,22 @@
+.about{
+    background: #1abc9c;
+    height: 95vh;
+}
+.line::after{
+    position: absolute;
+    content: "";
+    height: 3px;
+    background-color: white;
+    width: 10%;
+    margin-left: 15px;
+    top: 60%;
+}
+.line::before{
+    position: absolute;
+    content: "";
+    height: 3px;
+    top: 60%;
+    width: 10%;
+    left: 39%;
+    background: white;
+}

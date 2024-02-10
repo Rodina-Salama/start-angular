@@ -1,0 +1,16 @@
+.footer{
+    background: #2c3e50;
+   min-height: 35vh;
+}
+i::after{
+    border: 1px solid white;
+    border-radius: 50%;
+    width:5px;
+    height:5px;
+    padding: 10px;
+
+}
+.copyright{
+    background-color: #1a252f;
+    height: 7vh;
+}

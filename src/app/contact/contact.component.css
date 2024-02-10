@@ -1,0 +1,49 @@
+.contact{
+    height: 100vh;
+}
+
+.line::after{
+    position: absolute;
+    content: "";
+    height: 3px;
+    background-color: black;
+    width: 5%;
+    margin-left: 15px;
+    top: 60%;
+}
+.line::before{
+    position: absolute;
+    content: "";
+    height: 3px;
+    top: 60%;
+    width: 5%;
+    right: 51%;
+    background: black;
+}
+
+.field{
+    position: relative;
+    margin-bottom: 20px;
+}
+input{
+border: 0;
+border-bottom: 2px solid rgb(221, 211, 211);
+outline: none;
+}
+label{
+    position: absolute;
+    top: 0;
+    left: 50px;
+}
+input , label{
+    width: 50%;
+   
+    font-size: 17px;
+    color: rgb(99, 96, 96);
+  
+}
+input:focus + label{
+    top: -20px;
+    font-size: 16px;
+    color: #1abc9c;
+}

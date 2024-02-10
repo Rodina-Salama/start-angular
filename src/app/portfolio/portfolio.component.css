@@ -1,0 +1,42 @@
+.portfolio {
+ background-color: white;
+  min-height: 120vh;
+}
+h2{
+    color: #2c3e50;
+}
+.line::after{
+    position: absolute;
+    content: "";
+    height: 3px;
+    background-color: black;
+    width: 5%;
+    margin-left: 15px;
+    top: 60%;
+}
+.line::before{
+    position: absolute;
+    content: "";
+    height: 3px;
+    top: 60%;
+    width: 5%;
+    right: 51%;
+    background: black;
+}
+ .fa-plus{
+    font-size: 70px;
+}
+
+.layer{
+    top: 0%;
+    left: 0%;
+    bottom: 0;
+    right: 0;
+    background: #1abc9cb3;
+    opacity:0;
+    transition: 0.5s;
+   
+}
+.image:hover .layer{
+opacity: 1;
+}

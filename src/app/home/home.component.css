@@ -1,0 +1,27 @@
+.home{
+   background-color: #1abc9c; 
+   height: 95vh;
+
+}
+.image{
+    width: 60%;
+}
+
+.line::after{
+    position: absolute;
+    content: "";
+    height: 3px;
+    background-color: white;
+    width: 25%;
+    margin-left: 15px;
+    top: 60%;
+}
+.line::before{
+    position: absolute;
+    content: "";
+    height: 3px;
+    top: 60%;
+    width: 25%;
+    left: 20%;
+    background: white;
+}
